@@ -1,0 +1,69 @@
+/* Style for the bootstrap wrapper */
+.bootstrap-wrapper {
+    padding-top: 5px; /* Add padding to the top of the wrapper */
+}
+
+/* Style for the mat-card */
+mat-card {
+    width: 80%;
+    height: 100%;
+    align-items: left;
+    background-color: rgb(174, 201, 218);
+    
+  
+}
+
+/* Style for the mat-card-header */
+mat-card-header {
+    background-color: #454f5a; /* Primary color for the card header */
+    color: white;
+    padding: 1rem;
+}
+
+/* Style for the container inside card header */
+mat-card-header .container {
+    display: flex;
+    align-items: center;
+}
+
+/* Style for the font-awesome icon */
+fa-icon {
+    font-size: 30px;
+    margin-right: 10px;
+}
+
+/* Style for the mat-form-field */
+mat-form-field {
+    width: 50%;
+    margin-bottom: 5px;
+}
+
+/* Style for the submit button */
+.container.text-center button {
+    background-color: #48cb10de; /* Primary color for the button */
+    color: rgba(27, 31, 27, 0.863);
+}
+
+/* Hover effect for the button */
+.container.text-center button:hover {
+    background-color: #00b395; /* Darker shade of primary color on hover */
+}
+/* AddUserOrderComponent.css or your custom CSS file */
+
+button {
+    background-color: #4CAF50; /* Green background color */
+    border: none; /* Remove border */
+    color: white; /* White text color */
+    padding: 10px 20px; /* Add some padding */
+    text-align: center; /* Center text horizontally */
+    text-decoration: none; /* Remove underline from text */
+    display: inline-block; /* Display the button as an inline element */
+    font-size: 16px; /* Set the font size */
+    cursor: pointer; /* Add a pointer cursor on hover */
+    border-radius: 5px; /* Optional: Add rounded corners */
+  }
+  
+  button:hover {
+    background-color: #45a049; /* Darker green color on hover */
+  }
+  

@@ -1,0 +1,84 @@
+/* Body gradient background */
+body {
+    background: linear-gradient(125deg, #FF4E50, #F9D423);
+    margin: 0;
+    padding: 0;
+}
+
+/* Main container background gradient */
+.bootstrap-wrapper {
+    background: linear-gradient(125deg, #e3eceb, #b1dcdf);
+    color: white;
+    padding: 20px;
+}
+
+/* Heading styles */
+.heading {
+    text-align: center;
+    margin-top:0px;
+}
+
+/* Carousel styles */
+#carouselExampleIndicators img {
+    width: 100%;
+    height: 550px;
+    object-fit: cover;
+}
+
+/* Card styles */
+.card {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: 0.3s;
+    margin-bottom: 20px;
+}
+
+.card img {
+    width: 100%;
+    height: 330px;
+    object-fit: cover;
+}
+
+.card-footer {
+    background-color: #d0d5d5;
+    color: white;
+    text-align: center;
+    padding: 5px;
+}
+
+/* Washer section styles */
+#washer {
+    background: linear-gradient(125deg, #a55d6e, #cadde3);
+    padding: 50px 20px;
+    color: white;
+}
+
+.headWasher {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+#content {
+    font-size: 18px;
+}
+
+/* Washer icon colors */
+.fa-icon {
+    font-size: 36px;
+    margin-bottom: 10px;
+}
+
+/* Washer button styles */
+#washerbutton {
+    text-align: center;
+    margin-top: 30px;
+}
+
+.btn-dark {
+    background-color: #4CAF50;
+    border-color: #4CAF50;
+}
+
+.btn-dark:hover {
+    background-color: #3E9942;
+    border-color: #3E9942;
+}

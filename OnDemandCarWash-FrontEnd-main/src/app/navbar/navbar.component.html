@@ -1,0 +1,15 @@
+<nav class="navbar sticky-top navbar-dark bg-dark" >
+    <button mat-icon-button style="color: rgb(74, 220, 69); margin-left: 15px;" (click)="gotoHome();" aria-label="Button to go to home screen">
+    <mat-icon>directions_car</mat-icon>
+    </button>
+    <span style="color: rgb(79, 211, 52); position: relative; left: 2cm; font-family: 'Quicksand', sans-serif; font-stretch: expanded;"><b>M A K E &nbsp;&nbsp;&nbsp;  Y O U R  &nbsp;&nbsp;&nbsp; C A R S &nbsp;&nbsp;&nbsp;  F E E L &nbsp;&nbsp;&nbsp; S O &nbsp;&nbsp;&nbsp;   S P E C I A L</b></span>
+    <div *ngIf="!currentUser?.id">
+    <button mat-flat-button style="background-color:rgb(16, 176, 51);" [routerLink]="['/login']" routerLinkActive="active" >Login</button>
+    <button type="button" mat-raised-button color="primary" (click)="aboutus();" >About</button>
+    <button type="button" mat-raised-button color="primary" (click)="contactus();" >Contact</button>
+  </div>
+    <div *ngIf="currentUser?.id">
+        <button mat-stroked-button color="basic" (click)="properRole()" routerLinkActive="active" style="color: rgb(63, 176, 35);"><b>{{currentUser.fullname}}</b></button>
+        <button mat-raised-button color="accent" (click)="logOut()"  routerLinkActive="active" >Log Out</button>
+    </div>
+</nav>

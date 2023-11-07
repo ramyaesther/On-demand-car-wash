@@ -1,0 +1,33 @@
+.container {
+    margin-top: 10px;
+}
+
+.card-header {
+    background-color: #333;
+    color: white;
+}
+
+.card-body {
+    height: 400px;
+    overflow-y: scroll;
+}
+
+.table th, .table td {
+    text-align: center;
+}
+
+.table th {
+    background-color: #333;
+    color: white;
+}
+
+/* Zebra striping for table rows */
+.table tbody tr:nth-child(odd) {
+    background-color: #f2f2f2;
+}
+
+/* Hover effect for table rows */
+.table tbody tr:hover {
+    background-color: #cce5ff;
+    cursor: pointer;
+}

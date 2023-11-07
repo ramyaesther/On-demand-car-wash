@@ -1,0 +1,61 @@
+.bootstrap-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: url('https://cdn.cardivision.com/sites/default/files/image-gallery/car-wash-c.jpg') no-repeat center center/cover;
+}
+
+
+.container {
+    margin-top: 20px;
+}
+
+.mat-card {
+    width: 100%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.mat-card-header {
+    background: linear-gradient(to right, #a1b8aa, #84a1ae);
+    color: white;
+    opacity: 0.7;
+    padding: 10px;
+    text-align: center;
+}
+
+.mat-card-content {
+    text-align: left;
+    padding: 20px;
+}
+
+.full-width {
+    width: 100%;
+}
+
+.mat-hint,
+.mat-error {
+    font-size: 12px;
+}
+
+.container.text-center {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.mat-raised-button {
+    font-family: 'Quicksand', sans-serif;
+}
+
+.mat-raised-button.mat-primary {
+    background-color: #00C853;
+}
+
+.mat-raised-button.mat-accent {
+    background-color: #0e2958;
+    opacity: 0.7;
+    color: rgb(19, 144, 104);
+}
+
+/* You can adjust colors, gradients, fonts, and other styles according to your design requirements */
+

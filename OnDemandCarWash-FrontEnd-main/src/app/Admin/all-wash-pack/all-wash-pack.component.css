@@ -1,0 +1,53 @@
+.container {
+    margin-top: 1px;
+}
+
+.mat-card {
+    width: 100%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.mat-card-header {
+    background: linear-gradient(to right, rgba(18, 19, 35, 0.8), rgba(20, 28, 32, 0.8));
+    color: rgb(102, 104, 110);
+    padding: 1px;
+    text-align: center;
+}
+
+.mat-card-content {
+    text-align: left;
+    padding: 10px;
+    height: 575px;
+    overflow-y: scroll;
+}
+
+.table {
+    width: 100%;
+    background-color:rgb(169, 169, 169);
+}
+
+.table th, .table td {
+    text-align: left;
+}
+
+.pt-5 {
+    padding-top: 2rem;
+}
+
+.mat-raised-button {
+    font-family: 'Quicksand', sans-serif;
+    min-width: 120px;
+    margin-right: 5px;
+}
+
+.mat-mini-fab {
+    width: 36px;
+    height: 36px;
+    min-width: 36px;
+    min-height: 36px;
+    line-height: 36px;
+}
+
+.fa-icon {
+    margin-right: 5px;
+}

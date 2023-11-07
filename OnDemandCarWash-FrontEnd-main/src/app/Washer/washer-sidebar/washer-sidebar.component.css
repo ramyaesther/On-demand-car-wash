@@ -1,0 +1,44 @@
+/* .mat-list-base .mat-list-item{
+    display: block;
+    height: 50px;
+    width: 100%;
+    padding: 0;    
+    padding-left: 10px;
+}
+button{
+    font-family: 'Quicksand', sans-serif;
+} */
+/* Style for the action list container */
+mat-action-list {
+    width: 200px;
+    border-right: 1px solid #ccc;
+    padding: 10px;
+    background-color: #333; /* Background color of the sidebar */
+  }
+  
+  /* Style for the subheader */
+  mat-action-list div.mat-subheader {
+    font-weight: bold;
+    margin-bottom: 25px;
+    color: #fff; /* Text color of the subheader */
+  }
+  
+  /* Style for the list items (buttons) */
+  mat-action-list button.mat-list-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 30px;
+    background-color: #444; /* Background color of the sidebar items */
+    color: #fff; /* Text color of the sidebar items */
+  }
+  
+  /* Style for the icons inside the buttons */
+  mat-action-list fa-icon {
+    margin-right: 2px;
+  }
+  
+  /* Hover effect for sidebar items */
+  mat-action-list button.mat-list-item:hover {
+    background-color: #555; /* Background color on hover */
+  }
+  

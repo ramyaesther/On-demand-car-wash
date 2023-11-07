@@ -1,0 +1,54 @@
+/* Styles for container */
+.bootstrap-wrapper {
+    padding: 20px;
+}
+
+/* Styles for individual wash pack card */
+.example-card {
+    width: 100%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    transition: 0.3s;
+    margin-bottom: 20px;
+    background-color: #ffffff; /* Card background color */
+}
+
+/* Hover effect for the card */
+.example-card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+
+/* Styles for card content */
+.icon {
+    background-color: #4CAF50; /* Icon background color */
+    color: white; /* Icon text color */
+    padding: 10px;
+}
+
+/* Styles for list items */
+.mat-list-item {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    border-bottom: 1px solid #ddd; /* Border between list items */
+}
+
+/* Margin between list items */
+.mt {
+    margin-top: 10px;
+}
+
+/* Responsive design for larger screens */
+@media (min-width: 768px) {
+    .col-md-3 {
+        flex: 0 0 25%; /* 25% width for medium-sized screens */
+        max-width: 25%;
+    }
+}
+
+/* Responsive design for smaller screens */
+@media (max-width: 767px) {
+    .col-md-3 {
+        flex: 0 0 100%; /* 100% width for small screens */
+        max-width: 100%;
+    }
+}

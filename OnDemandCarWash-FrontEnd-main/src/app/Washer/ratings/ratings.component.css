@@ -1,0 +1,18 @@
+/* Add this CSS to your component's styles or in your global styles.css file */
+
+.rating-card {
+    margin: 100px;
+    width: 300px; /* Set the width according to your design */
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+   
+  }
+  
+  .avatar {
+    width: 40px; /* Set the avatar width */
+    height: 40px; /* Set the avatar height */
+    border-radius: 50%;
+    background-color: #007bff; /* Set the avatar background color */
+   
+  }
+  

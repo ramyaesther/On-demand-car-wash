@@ -1,0 +1,56 @@
+/* Add this CSS to your component's styles or in your global styles.css file */
+
+.bootstrap-wrapper {
+    padding: 20px;
+  }
+  
+  .example-card {
+    width: 100%;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .icon {
+    background-color: #007bff;
+    color: white;
+    border-radius: 50%;
+    padding: 15px;
+    margin-bottom: 10px;
+  }
+  
+  .icon mat-icon {
+    font-size: 36px;
+  }
+  
+  .mat-list-item {
+    padding: 10px 0;
+  }
+  
+  .mt {
+    margin-top: 10px;
+  }
+  
+  /* Hover effect */
+  .example-card:hover {
+    transform: translateY(-5px);
+    transition: all 0.3s ease;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+  }
+  
+  /* Responsive design for medium-sized devices and above */
+  @media (min-width: 768px) {
+    .col-md-3 {
+      flex: 0 0 25%;
+      max-width: 25%;
+    }
+  }
+  
+  /* Responsive design for small-sized devices */
+  @media (max-width: 767px) {
+    .col-md-3 {
+      flex: 0 0 50%;
+      max-width: 50%;
+    }
+  }
+  

@@ -1,0 +1,38 @@
+/* Style for the container */
+.container {
+    margin-top: 5px;
+  }
+  
+  /* Style for the card */
+  .card {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Style for the card header */
+  .card-header {
+    background-color: #86c0da;
+    color: white;
+    padding: 15px;
+  }
+  
+  /* Style for the table */
+  .table {
+    margin-bottom: 0;
+  }
+  
+  /* Style for table headings */
+  .table th {
+    background-color: #f2f2f2;
+    font-weight: bold;
+  }
+  
+  /* Style for table rows */
+  .table tbody tr:nth-child(odd) {
+    background-color: #f2f2f2;
+  }
+  
+  /* Style for table rows on hover */
+  .table tbody tr:hover {
+    background-color: #cce5ff;
+  }
+  

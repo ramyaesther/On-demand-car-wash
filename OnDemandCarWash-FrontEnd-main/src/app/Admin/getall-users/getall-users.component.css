@@ -1,0 +1,15 @@
+
+.padding-1{
+    padding-top: 1px;
+    padding-bottom: 5px;
+}
+.example-card{
+    padding: 2px;
+    padding-bottom: 6spx;
+    background-color:rgb(122, 173, 186)
+}
+.icon {
+    font-size: 50px;
+}
+
+

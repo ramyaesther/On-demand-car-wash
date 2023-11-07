@@ -1,0 +1,52 @@
+/* .mat-card {
+    margin: 13px;
+    padding: 5px;
+}
+button{
+    font-family: 'Quicksand', sans-serif;
+} */
+/* Style for the bootstrap wrapper */
+.bootstrap-wrapper {
+    padding: 20px;
+}
+
+/* Style for the mat-card */
+mat-card {
+    width: 100%;
+}
+
+/* Style for the mat-card-header */
+mat-card-header {
+    background-color: #131d27; /* Primary color for the card header */
+    color: white;
+    padding: 15px;
+}
+
+/* Style for the container inside card header */
+mat-card-header .container {
+    display: flex;
+    align-items: center;
+}
+
+/* Style for the font-awesome icon */
+fa-icon {
+    font-size: 36px;
+    margin-right: 10px;
+}
+
+/* Style for the mat-form-field */
+mat-form-field {
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+/* Style for the submit button */
+.container.text-center button {
+    background-color: #0d1e2f; /* Primary color for the button */
+    color: white;
+}
+
+/* Hover effect for the button */
+.container.text-center button:hover {
+    background-color: #486a91; /* Darker shade of primary color on hover */
+}
